@@ -9,6 +9,6 @@ def main(queries, number_of_images):
         executor.map(lambda x: download_images(x, number_of_images), queries)
 
 if __name__ == "__main__":
-    queries = ["penguin in the wild", "giraffe in the wild", "racoon in the wild", "hippo in the wild", "parrot"]
-    number_of_images = 200
+    queries = ["penguin in te wild", "giraffe in the wild", "racoon in the wild", "hippo in the wild", "bird on tree"]
+    number_of_images = 100
     main(queries, number_of_images)
